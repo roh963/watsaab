@@ -9,7 +9,7 @@ const levels = {
     debug:4
 };
 
-// logging level determine the logging based on env
+// logging level determine the logging based on  envv
 const getloglevel = ()=>{
     const env = process.env.NODE_ENV || "development"; 
     return env === "development" ? "debug" : "warn";
