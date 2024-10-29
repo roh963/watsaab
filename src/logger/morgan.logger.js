@@ -9,7 +9,8 @@ const skip = ()=>{
     return env !== "development"
 };
 
-const morganMiddleware = margan(
+const morganMiddleware = morgan(
     ":remote-addr:method:url:status-:response-time ms",
     {stream,skip}
 )
+
