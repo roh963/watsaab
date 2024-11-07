@@ -12,6 +12,7 @@
         const decode= jwt.verify(token,JWT_SECRET)
 
         req.user= decode
+        next();
     } catch (error) {
         return res(403).json(new ApiResponse(403,null,"expired the token"))
     }
