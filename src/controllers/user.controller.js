@@ -1,10 +1,11 @@
-import User from "../models/chat.model"
+
 import { bcrypt } from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { ApiResponse } from "../utils/ApiResponse"
 import { uploadOnCloudinary } from "../utils/cloudinary";
 import mongoose from "mongoose";
 import { fs } from 'fs';
+import { User } from '../models/user.model';
 
 export const signUp = async (req, res) => {
    try {
