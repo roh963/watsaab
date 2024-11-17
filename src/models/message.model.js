@@ -15,7 +15,7 @@ const messageSchema = new Schema({
         required:true,
         trim:true
     },
-    attachment:{
+    attachments:{
         type:[{
             url:String,
             localPath:String
