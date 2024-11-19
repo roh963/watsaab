@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
 import crypto from "crypto"
 import { ACCESS_TOKEN_EXPIRY, ACCESS_TOKEN_SECRET, REFRESH_TOKEN_EXPIRY, REFRESH_TOKEN_SECRET } from "../../config";
+import { AvailableUserRoles, UserRolesEnum } from "../../constant";
 
 
 const userSchema = new Schema({
@@ -19,13 +20,16 @@ const userSchema = new Schema({
         required: [true, "email will be required"],
         unique: true,
         lowercase: true,
-        trim: true
+        trim: true,
+        match: [/^\S+@\S+\.\S+$/, 'Please provide a valid email address']
     },
     phoneNumber: {
         type: String,
         required: [true, "number will be required"],
         trim: true,
         index: true,
+        match: [/^\d{10}$/, 'Please provide a valid phone number']
+
     },
     status: {
         type: String,
@@ -36,8 +40,15 @@ const userSchema = new Schema({
         type: String,
         default: null
     },
+    role: {
+      type: String,
+      enum: AvailableUserRoles,
+      default: UserRolesEnum.USER,
+      required: true,
+    },
     refreshToken: {
         type: String,
+        default:null
     },
     contacts: [{
         type: Schema.Types.ObjectId,
@@ -73,10 +84,6 @@ const userSchema = new Schema({
     emailVerificationExpiry: {
         type: Date,
         default: null
-    },
-    refreshToken: {
-        String: true,
-        default: null
     }
 }, {
     timestamps: true
@@ -110,7 +117,7 @@ userSchema.methods.generateRefreshToken = function () {
             _id: this._id,
         },
         REFRESH_TOKEN_SECRET,
-        { expiresIn: process.env.REFRESH_TOKEN_EXPIRY }
+        { REFRESH_TOKEN_EXPIRY}
     );
 };
 
