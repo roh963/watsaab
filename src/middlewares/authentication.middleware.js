@@ -1,6 +1,6 @@
- import { ApiResponse } from "../utils/ApiResponse";
- import  { jwt } from 'jsonwebtoken';
- import { JWT_SECRET } from "../../config";
+ import   jwt  from 'jsonwebtoken';
+ import { ACCESS_TOKEN_SECRET } from "../../config.js";
+import { ApiResponse } from '../utils/ApiResponse.js';
 
  const authenticationToken= async (req,res,next)=>{
     const token = req.headers["authorization"]?.split(" ")[1];
@@ -9,7 +9,7 @@
        return res.status(401).json( new ApiResponse(401, null, "error in token"))
     }
     try {
-        const decode= jwt.verify(token,JWT_SECRET)
+        const decode= jwt.verify(token,ACCESS_TOKEN_SECRET)
 
         req.user= decode
         next();

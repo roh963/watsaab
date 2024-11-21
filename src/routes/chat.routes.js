@@ -1,7 +1,7 @@
 import express, { Router } from "express"
 
 import verifyJwt from "../middlewares/athorized.middleware.js"
-import { addNewParticipantInGroupChat, createAGroupChat, createOrGetAOneOnOneChat, deleteGroupChat, deleteOneOnOneChat, getAllChats, getGroupChatDetails, leaveGroupChat, removeParticipantFromGroupChat, renameGroupChat, searchAvailableUsers } from "../controllers/chat.controller";
+import { addNewParticipantInGroupChat, createAGroupChat, createOrGetAOneOnOneChat, deleteGroupChat, deleteOneOnOneChat, getAllChats, getGroupChatDetails, leaveGroupChat, removeParticipantFromGroupChat, renameGroupChat, searchAvailableUsers } from "../controllers/chat.controller.js";
 import { mongoIdPathVariableValidator } from "../validate/mongodb.validate.js";
 import { validate } from "../validate/validate.js";
 import { createAGroupChatValidator, updateGroupChatNameValidator } from "../validate/chat.validate.js";

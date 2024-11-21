@@ -1,37 +1,36 @@
-//library , framwork , packages
-import express from 'express';
 import dotenv from 'dotenv';
+dotenv.config();
 import http from "http";
 import { Server as SocketServer } from "socket.io";
+import express from 'express';
 //fils
 import app from './app.js';
 import logger from './src/logger/winston.logger.js';
 import { db } from './src/config/db.js';
-import { initializeSocketIO } from './src/socket/socketio.js';
+import { initializSocketIO } from './src/socket/socketio.js'
+import { PORT } from './config.js';
 
 
+// configration of dotenv
 //http server create 
 const server = http.createServer(app)
-// configration of dotenv
-dotenv.config();
 
 //socket io intialize
-const io = new SocketServer(server,{
-    cors:{
-        origin:"*",
-        methods:["GET","POST"]
+const io = new SocketServer(server, {
+    cors: {
+        origin: "*",
+        methods: ["GET", "POST"]
     }
 })
 //socketio initalize
-initializeSocketIO(io)
-
-app.set("io",io);
-const port = process.env.PORT || 5000;
+initializSocketIO(io)
+app.set("io", io);
+// console.log(PORT)
 const startserver = () => {
-    app.listen(port, () =>
-        logger.info(`📑 Visit the documentation at: http://localhost:${process.env.PORT || 8080} `)
+    app.listen(PORT, () =>
+        logger.info(`📑 Visit the documentation at: http://localhost:${PORT} `)
     );
-    logger.info("⚙️  Server is running on port: " + process.env.PORT);
+    logger.info("⚙️  Server is running on port: " + PORT);
 }
 
 try {
@@ -41,8 +40,3 @@ try {
     logger.error("Mongo db connect error: ", err);
 }
 
-
-
-
-
-app.listen(port, () => `Server running on port ${port} 🔥`);

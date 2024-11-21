@@ -1,10 +1,10 @@
 import express,{Router} from "express"
-import {upload} from "../middlewares/multer.middleware"
+import {upload} from "../middlewares/multer.middleware.js"
 import verifyJwt from "../middlewares/athorized.middleware.js"
-import { assignRole, changePassword, deleteUserAccount, forgotPasswordRequest, getUserProfile, login, logoutUser, resendEmailVerification, resetForgottenPassword, signUp, updateUserAvatar, updateUserProfile, verifyEmail } from "../controllers/user.controller";
-import authenticationUser from "../middlewares/authentication.middleware"
-import { validate } from './../validate/validate';
-import { userAssignRoleValidator, userChangeCurrentPasswordValidator, userForgotPasswordValidator, userRegisterValidator, userResetForgottenPasswordValidator } from "../validate/user.validate";
+import { assignRole, changePassword, deleteUserAccount, forgotPasswordRequest, getUserProfile, login, logoutUser, refreshAccessToken, resendEmailVerification, resetForgottenPassword, signUp, updateUserAvatar, updateUserProfile, verifyEmail } from "../controllers/user.controller.js";
+import authenticationUser from "../middlewares/authentication.middleware.js"
+import { validate } from './../validate/validate.js';
+import { userAssignRoleValidator, userChangeCurrentPasswordValidator, userForgotPasswordValidator, userLoginValidator, userRegisterValidator, userResetForgottenPasswordValidator } from "../validate/user.validate.js";
 import { mongoIdPathVariableValidator } from "../validate/mongodb.validate.js";
 
 

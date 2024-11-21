@@ -2,8 +2,8 @@ import mongoose, { Schema } from "mongoose";
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
 import crypto from "crypto"
-import { ACCESS_TOKEN_EXPIRY, ACCESS_TOKEN_SECRET, REFRESH_TOKEN_EXPIRY, REFRESH_TOKEN_SECRET } from "../../config";
-import { AvailableUserRoles, UserRolesEnum } from "../../constant";
+import { ACCESS_TOKEN_EXPIRY, ACCESS_TOKEN_SECRET, REFRESH_TOKEN_EXPIRY, REFRESH_TOKEN_SECRET } from "../../config.js";
+import { AvailableUserRoles, UserRolesEnum } from "../../constant.js";
 
 
 const userSchema = new Schema({

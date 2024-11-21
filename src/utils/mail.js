@@ -1,7 +1,7 @@
 import Mailgen from "mailgen";
 import nodemailer from "nodemailer";
-import logger from "../logger/winston.logger";
-import { MAILTRAP_SMTP_HOST, MAILTRAP_SMTP_PASS, MAILTRAP_SMTP_PORT, MAILTRAP_SMTP_USER } from "../../config";
+import logger from "../logger/winston.logger.js";
+import { MAILTRAP_SMTP_HOST, MAILTRAP_SMTP_PASS, MAILTRAP_SMTP_PORT, MAILTRAP_SMTP_USER } from "../../config.js";
 
 const sendEmail = async (options) => {
   const mailGenerator = new Mailgen({

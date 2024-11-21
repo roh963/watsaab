@@ -1,6 +1,6 @@
-import { ApiError } from '../utils/ApiError';
-import logger from './../logger/winston.logger';
-import { NODE_ENV } from './../../config';
+import { ApiError } from '../utils/ApiError.js';
+import logger from './../logger/winston.logger.js';
+import { NODE_ENV } from './../../config.js';
 
 const errorHandler = (err,req,res,next)=>{
        const statusCode = err  instanceof ApiError ? err.statusCode : 500;

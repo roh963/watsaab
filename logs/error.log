@@ -1,0 +1,6 @@
+[21 Nov, 2024 - 15:49:11:4911] [31merror[39m: [31mMongo db connect error:  port is not defined[39m
+[21 Nov, 2024 - 16:32:34:3234] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:36:53:3653] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:38:56:3856] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:41:12:4112] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:52:02:522] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m

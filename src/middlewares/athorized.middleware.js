@@ -1,4 +1,4 @@
-import { ApiResponse } from "../utils/ApiResponse";
+import { ApiResponse } from "../utils/ApiResponse.js";
 
 const authorize = (requiredroles)=>{
      return  (req,res, next)=>{

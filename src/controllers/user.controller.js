@@ -1,15 +1,16 @@
 
-import { bcrypt } from 'bcrypt';
+import  bcrypt  from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import { ApiResponse } from "../utils/ApiResponse"
-import { uploadOnCloudinary } from "../utils/cloudinary";
+import { ApiResponse } from "../utils/ApiResponse.js"
+import { uploadOnCloudinary } from "../utils/cloudinary.js";
 import mongoose from "mongoose";
-import { fs } from 'fs';
-import { User } from '../models/user.model';
-import { getLocalPath, getStaticFilePath, removeLocalFile } from './../utils/helpers';
-import { emailVerificationMailgenContent, sendEmail } from '../utils/mail';
-import { NODE_ENV, REFRESH_TOKEN_SECRET ,FORGOT_PASSWORD_REDIRECT_URL } from '../../config';
-import { cookie } from 'cookie';
+import  fs  from 'fs';
+import { User } from '../models/user.model.js';
+import { getLocalPath, getStaticFilePath, removeLocalFile } from './../utils/helpers.js';
+import { emailVerificationMailgenContent, sendEmail } from '../utils/mail.js';
+import { NODE_ENV, REFRESH_TOKEN_SECRET ,FORGOT_PASSWORD_REDIRECT_URL } from '../../config.js';
+import  cookie  from 'cookie';
+import { asyncHandler } from '../utils/asyncHandler.js';
 
 const generateAccessAndRefreshTokens = async (userId) => {
    try {
@@ -28,7 +29,7 @@ const generateAccessAndRefreshTokens = async (userId) => {
       throw new ApiError(500, "Something went wrong while generating the access token");
    }
 }
-export const signUp = async (req, res) => {
+export const signUp =asyncHandler( async (req, res) => {
    try {
 
       const { username, email, phoneNumber, password } = req.body;
@@ -92,9 +93,9 @@ export const signUp = async (req, res) => {
    } catch (error) {
       res.status(500).json(new ApiResponse(500, null, "error on creating user"));
    }
-}
+});
 
-export const login = async (req, res) => {
+export const login = asyncHandler(async (req, res) => {
    try {
 
       const { email, password, phoneNumber } = req.body
@@ -134,9 +135,9 @@ export const login = async (req, res) => {
    } catch (error) {
       res.status(500).json(new ApiResponse(500, null, "error on logging user"));
    }
-}
+});
 
-export const logoutUser = async (req, res) => {
+export const logoutUser =asyncHandler( async (req, res) => {
    const user = await User.findByIdAndUpdate(
       req.user._id,
       {
@@ -156,9 +157,9 @@ export const logoutUser = async (req, res) => {
       secure: NODE_ENV === "production",
    };
 
-}
+})
 
-export const getUserProfile = async (req, res) => {
+export const getUserProfile = asyncHandler(async (req, res) => {
    try {
       const user = await User.findById(req.user._id).select('-password');
       if (!user) {
@@ -170,9 +171,9 @@ export const getUserProfile = async (req, res) => {
    } catch (error) {
       return res.status(500).json(new ApiResponse(400, error, "error in fetching in user"));
    }
-}
+})
 
-export const updateUserProfile = async (req, res) => {
+export const updateUserProfile =asyncHandler( async (req, res) => {
    try {
 
       const userId = req.user._id;
@@ -208,9 +209,9 @@ export const updateUserProfile = async (req, res) => {
    } catch (error) {
       return res.status(500).json(new ApiResponse(500, error, "Error in update  found !...."));
    }
-}
+});
 
-export const changePassword = async (req, res) => {
+export const changePassword = asyncHandler(async (req, res) => {
    try {
       const { currentPassword, newPassword } = req.body;
       const userId = req.user._id;
@@ -230,9 +231,9 @@ export const changePassword = async (req, res) => {
    } catch (error) {
       return res.status(500).json(new ApiResponse(500, error, "something went wrong in change password...."));
    }
-}
+});
 
-export const deleteUserAccount = async (req, res) => {
+export const deleteUserAccount = asyncHandler(async (req, res) => {
    try {
       const userId = req.user._id;
       const user = await User.findByIdAndDelete(userId);
@@ -244,7 +245,7 @@ export const deleteUserAccount = async (req, res) => {
    } catch (error) {
       res.status(500).json(new ApiResponse(500, error, "Error deleting user account"));
    }
-};
+});
 export  const assignRole = asyncHandler(async (req, res) => {
    const { userId } = req.params;
    const { role } = req.body;

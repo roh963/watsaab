@@ -1,11 +1,11 @@
 import cookie from "cookie";
 import jwt from "jsonwebtoken"
 import { Server, Socket } from "socket.io"
-import { User } from './../models/user.model';
-import { Chat } from "../models/chat.model";
-import { AvailableChatEvents, ChatEventEnum } from './../../constant';
-import { ApiError } from './../utils/ApiError';
-import { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } from "../../config";
+import { User } from './../models/user.model.js';
+import { Chat } from "../models/chat.model.js";
+import { AvailableChatEvents, ChatEventEnum } from './../../constant.js';
+import { ApiError } from './../utils/ApiError.js';
+import { ACCESS_TOKEN_SECRET, REFRESH_TOKEN_SECRET } from "../../config.js";
 
 
 const mountJoinChatEvent = (socket) => {
@@ -44,7 +44,7 @@ const mountStopTypingEvent = (socket) => {
     })
 }
 
-const initializSocketIO = (io) => {
+export const initializSocketIO = (io) => {
     io.on("connection", async (socket) => {
         try {
             const cookies = cookie.parse(socket.handshake.headers?.cookie || "");
@@ -95,7 +95,6 @@ const initializSocketIO = (io) => {
     })
 }
 
-const emitSocketEvent = (req,roomId,event,payload)=>{
+export const emitSocketEvent = (req,roomId,event,payload)=>{
     req.app.get("io").in(roomId).emit(event,payload);
 }
-export {initializSocketIO, emitSocketEvent}

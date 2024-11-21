@@ -1,4 +1,4 @@
-import logger from './../logger/winston.logger';
+import logger from './../logger/winston.logger.js';
 import morgan from 'morgan';
 
 morgan.token("status", (req, res) => res.statusCode)

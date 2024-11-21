@@ -1,12 +1,12 @@
 import { Mongoose, mongoose } from 'mongoose';
-import { ApiError } from './../utils/ApiError';
-import { ApiResponse } from '../utils/ApiResponse';
-import { asyncHandler } from '../utils/asyncHandler';
-import { ChatEventEnum } from './../../constant';
-import { Chat } from './../models/chat.model';
-import { Message } from './../models/message.model';
-import { emitSocketEvent } from '../socket/socketio';
-import { getLocalPath, getStaticFilePath, removeLocalFile } from '../utils/helpers';
+import { ApiError } from './../utils/ApiError.js';
+import { ApiResponse } from '../utils/ApiResponse.js';
+import { asyncHandler } from '../utils/asyncHandler.js';
+import { ChatEventEnum } from './../../constant.js';
+import { Chat } from './../models/chat.model.js';
+import { Message } from './../models/message.model.js';
+import { emitSocketEvent } from '../socket/socketio.js';
+import { getLocalPath, getStaticFilePath, removeLocalFile } from '../utils/helpers.js';
 
 
 const chatMessageCommonAggregation = () => {

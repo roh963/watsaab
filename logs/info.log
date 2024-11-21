@@ -1,0 +1,45 @@
+[21 Nov, 2024 - 15:27:40:2740] [34minfo[39m: [34m⚙️  Server is running on port: 8080[39m
+[21 Nov, 2024 - 15:28:49:2849] [34minfo[39m: [34m⚙️  Server is running on port: 8000[39m
+[21 Nov, 2024 - 15:32:21:3221] [34minfo[39m: [34m⚙️  Server is running on port: 8000[39m
+[21 Nov, 2024 - 15:32:48:3248] [34minfo[39m: [34m⚙️  Server is running on port: 8000[39m
+[21 Nov, 2024 - 15:34:48:3448] [34minfo[39m: [34m⚙️  Server is running on port: 8010[39m
+[21 Nov, 2024 - 15:38:53:3853] [34minfo[39m: [34m⚙️  Server is running on port: 8020[39m
+[21 Nov, 2024 - 15:39:58:3958] [34minfo[39m: [34m⚙️  Server is running on port: 8020[39m
+[21 Nov, 2024 - 15:39:58:3958] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 15:40:57:4057] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:40:57:4057] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 15:42:04:424] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:42:04:424] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 15:42:58:4258] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:42:58:4258] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 15:43:21:4321] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:43:21:4321] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 15:45:31:4531] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:46:04:464] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:47:46:4746] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:48:33:4833] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:49:11:4911] [31merror[39m: [31mMongo db connect error:  port is not defined[39m
+[21 Nov, 2024 - 15:49:47:4947] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:50:24:5024] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 15:50:24:5024] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 16:01:10:110] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 16:01:10:110] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 16:02:46:246] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 16:02:46:246] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 16:05:18:518] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 16:05:18:518] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 16:12:04:124] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 16:12:04:124] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 16:12:47:1247] [34minfo[39m: [34m⚙️  Server is running on port: undefined[39m
+[21 Nov, 2024 - 16:12:47:1247] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:undefined [39m
+[21 Nov, 2024 - 16:20:05:205] [34minfo[39m: [34m⚙️  Server is running on port: 8000[39m
+[21 Nov, 2024 - 16:21:13:2113] [34minfo[39m: [34m⚙️  Server is running on port: 8020[39m
+[21 Nov, 2024 - 16:21:23:2123] [34minfo[39m: [34m⚙️  Server is running on port: 8020[39m
+[21 Nov, 2024 - 16:25:20:2520] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 16:32:34:3234] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:36:53:3653] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:38:56:3856] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:41:12:4112] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:52:02:522] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 16:52:02:522] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 16:52:02:522] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
