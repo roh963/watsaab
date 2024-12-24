@@ -43,3 +43,530 @@
 [21 Nov, 2024 - 16:52:02:522] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
 [21 Nov, 2024 - 16:52:02:522] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
 [21 Nov, 2024 - 16:52:02:522] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 16:55:51:5551] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 16:55:51:5551] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 16:55:51:5551] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:14:28:1428] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[21 Nov, 2024 - 17:19:36:1936] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:19:36:1936] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:19:36:1936] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:19:42:1942] [31merror[39m: [31m[POST]  /api/users/signup - 422: Received data is not valid[39m
+[21 Nov, 2024 - 17:27:12:2712] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:27:12:2712] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:27:12:2712] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:28:11:2811] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:28:11:2811] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:28:11:2811] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:28:33:2833] [31merror[39m: [31m[POST]  /api/users/signup - 500: Only .png, .jpg, and .jpeg format allowed![39m
+[21 Nov, 2024 - 17:29:18:2918] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:29:18:2918] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:29:18:2918] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:31:53:3153] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:31:53:3153] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:31:53:3153] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:31:59:3159] [31merror[39m: [31m[POST]  /api/users/signup - 422: Received data is not valid[39m
+[21 Nov, 2024 - 17:35:38:3538] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:35:38:3538] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:35:38:3538] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 17:35:43:3543] [31merror[39m: [31m[POST]  /api/users/signup - 422: Received data is not valid[39m
+[21 Nov, 2024 - 17:36:42:3642] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 17:36:42:3642] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 17:36:42:3642] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:17:29:1729] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:17:29:1729] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:17:29:1729] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:23:13:2313] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:23:13:2313] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:23:13:2313] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:31:32:3132] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:31:32:3132] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:31:32:3132] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:32:00:320] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 143.708 ms[39m
+[21 Nov, 2024 - 20:32:45:3245] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:32:45:3245] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:32:46:3246] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:32:55:3255] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 263.106 ms[39m
+[21 Nov, 2024 - 20:49:08:498] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:49:08:498] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:49:08:498] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:49:15:4915] [31merror[39m: [31m[POST]  /api/users/signup - 500: logger is not defined[39m
+[21 Nov, 2024 - 20:49:15:4915] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 71.030 ms[39m
+[21 Nov, 2024 - 20:50:05:505] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:50:05:505] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:50:05:505] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:50:08:508] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 20:50:08:508] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 86.316 ms[39m
+[21 Nov, 2024 - 20:59:28:5928] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 20:59:28:5928] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 20:59:28:5928] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 20:59:37:5937] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 20:59:37:5937] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 90.550 ms[39m
+[21 Nov, 2024 - 21:06:29:629] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:06:29:629] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:06:29:629] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:06:37:637] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:06:37:637] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 77.880 ms[39m
+[21 Nov, 2024 - 21:09:03:93] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:09:03:93] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:09:03:93] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:09:13:913] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:09:13:913] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 290.067 ms[39m
+[21 Nov, 2024 - 21:14:58:1458] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:14:58:1458] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:14:58:1458] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:15:12:1512] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:15:12:1512] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 114.864 ms[39m
+[21 Nov, 2024 - 21:15:28:1528] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:15:28:1528] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 56.418 ms[39m
+[21 Nov, 2024 - 21:18:09:189] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:18:09:189] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:18:09:189] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:18:21:1821] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:18:21:1821] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 129.630 ms[39m
+[21 Nov, 2024 - 21:19:11:1911] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:19:11:1911] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:19:11:1911] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:19:16:1916] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:19:16:1916] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 140.391 ms[39m
+[21 Nov, 2024 - 21:20:26:2026] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:20:26:2026] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:20:26:2026] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:20:35:2035] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:20:35:2035] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 63.232 ms[39m
+[21 Nov, 2024 - 21:21:12:2112] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 21:21:12:2112] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 21:21:12:2112] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 21:21:17:2117] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:21:17:2117] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 43.826 ms[39m
+[21 Nov, 2024 - 22:40:55:4055] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 22:40:55:4055] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 22:40:55:4055] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 22:41:41:4141] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 22:41:41:4141] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 102.602 ms[39m
+[21 Nov, 2024 - 22:45:27:4527] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 22:45:27:4527] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 22:45:27:4527] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 22:45:39:4539] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 22:45:39:4539] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 66.264 ms[39m
+[21 Nov, 2024 - 22:50:17:5017] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 22:50:17:5017] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 22:50:17:5017] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:01:36:136] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:01:36:136] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:01:36:136] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:01:47:147] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:01:47:147] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 147.510 ms[39m
+[21 Nov, 2024 - 23:03:44:344] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:03:44:344] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:03:44:344] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:03:49:349] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:03:49:349] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 68.448 ms[39m
+[21 Nov, 2024 - 23:09:51:951] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:09:51:951] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:09:51:951] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:10:03:103] [35mhttp[39m: [35m::1 POST /api/users/signup 400 - 28.359 ms[39m
+[21 Nov, 2024 - 23:10:20:1020] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:10:20:1020] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:10:20:1020] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:10:25:1025] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:10:25:1025] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 86.460 ms[39m
+[21 Nov, 2024 - 23:10:43:1043] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:10:43:1043] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 29.406 ms[39m
+[21 Nov, 2024 - 23:47:52:4752] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:47:52:4752] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:47:52:4752] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:47:59:4759] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:47:59:4759] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 43.210 ms[39m
+[21 Nov, 2024 - 23:52:49:5249] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:52:49:5249] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:52:49:5249] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:53:29:5329] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:53:29:5329] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 59.153 ms[39m
+[21 Nov, 2024 - 23:55:11:5511] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[21 Nov, 2024 - 23:55:11:5511] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[21 Nov, 2024 - 23:55:11:5511] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[21 Nov, 2024 - 23:55:46:5546] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:55:46:5546] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 111.425 ms[39m
+[22 Nov, 2024 - 00:11:41:1141] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 00:11:41:1141] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 00:11:41:1141] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 00:11:55:1155] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 00:11:55:1155] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 91.145 ms[39m
+[22 Nov, 2024 - 00:12:41:1241] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 00:12:41:1241] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 00:12:41:1241] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 00:12:45:1245] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 00:12:45:1245] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 126.766 ms[39m
+[22 Nov, 2024 - 12:28:30:2830] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 12:28:30:2830] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 12:28:30:2830] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 12:42:09:429] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 12:42:09:429] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 87.277 ms[39m
+[22 Nov, 2024 - 12:46:00:460] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 12:46:00:460] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 12:46:00:460] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 12:46:06:466] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 12:46:06:466] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 91.213 ms[39m
+[22 Nov, 2024 - 12:46:33:4633] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 12:46:33:4633] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 12:46:33:4633] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 12:46:40:4640] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 12:46:40:4640] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 148.754 ms[39m
+[22 Nov, 2024 - 12:48:06:486] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 12:48:06:486] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 12:48:06:486] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 12:48:12:4812] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 12:48:12:4812] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 106.777 ms[39m
+[22 Nov, 2024 - 13:08:23:823] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 13:08:23:823] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 13:08:23:823] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 13:12:00:120] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 13:12:00:120] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 13:12:00:120] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 13:12:11:1211] [34minfo[39m: [34mUploaded File:[39m
+[22 Nov, 2024 - 13:12:11:1211] [34minfo[39m: [34mAvatar File Path:[39m
+[22 Nov, 2024 - 13:12:11:1211] [31merror[39m: [31mError in signUp: "REFRESH_TOKEN_EXPIRY" is not allowed in "options"[39m
+[22 Nov, 2024 - 13:12:11:1211] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 199.007 ms[39m
+[22 Nov, 2024 - 13:38:22:3822] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 13:38:22:3822] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 13:38:22:3822] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 13:38:29:3829] [34minfo[39m: [34mUploaded File:[39m
+[22 Nov, 2024 - 13:38:29:3829] [34minfo[39m: [34mAvatar File Path:[39m
+[22 Nov, 2024 - 13:38:32:3832] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 3338.122 ms[39m
+[22 Nov, 2024 - 14:00:20:020] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 14:00:20:020] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 14:00:20:020] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 14:02:06:26] [34minfo[39m: [34mUploaded File:[39m
+[22 Nov, 2024 - 14:02:06:26] [34minfo[39m: [34mAvatar File Path:[39m
+[22 Nov, 2024 - 14:02:10:210] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 3890.058 ms[39m
+[22 Nov, 2024 - 15:13:34:1334] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 15:13:34:1334] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 15:13:34:1334] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 15:13:41:1341] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 15:13:41:1341] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 65.090 ms[39m
+[22 Nov, 2024 - 15:14:47:1447] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 15:14:47:1447] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 32.920 ms[39m
+[22 Nov, 2024 - 15:14:54:1454] [34minfo[39m: [34mUploaded File:[39m
+[22 Nov, 2024 - 15:14:54:1454] [34minfo[39m: [34mAvatar File Path:[39m
+[22 Nov, 2024 - 15:14:54:1454] [31merror[39m: [31merror on generating tempory token[39m
+[22 Nov, 2024 - 15:14:58:1458] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4011.461 ms[39m
+[22 Nov, 2024 - 21:04:47:447] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 21:04:48:448] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 21:04:48:448] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 21:08:49:849] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 21:08:49:849] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 52.332 ms[39m
+[22 Nov, 2024 - 21:10:05:105] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 21:10:05:105] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 21:10:05:105] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 21:10:50:1050] [34minfo[39m: [34mUploaded File:[39m
+[22 Nov, 2024 - 21:10:50:1050] [34minfo[39m: [34mAvatar File Path:[39m
+[22 Nov, 2024 - 21:10:54:1054] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4002.316 ms[39m
+[22 Nov, 2024 - 23:46:12:4612] [35mhttp[39m: [35m::1 GET /api/users//verify-email/:e9d1a81349a30cda6ca8116e7514a25e7c41231127f3e9b5eb885c65b7806f55 - - - ms[39m
+[22 Nov, 2024 - 23:46:30:4630] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 23:46:30:4630] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 23:46:30:4630] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 23:46:54:4654] [35mhttp[39m: [35m::1 GET /api/users//verify-email/:e9d1a81349a30cda6ca8116e7514a25e7c41231127f3e9b5eb885c65b7806f55 - - - ms[39m
+[22 Nov, 2024 - 23:47:32:4732] [35mhttp[39m: [35m::1 GET /api/users//verify-email/e9d1a81349a30cda6ca8116e7514a25e7c41231127f3e9b5eb885c65b7806f55 - - - ms[39m
+[22 Nov, 2024 - 23:47:45:4745] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 23:47:45:4745] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 23:47:45:4745] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 23:49:09:499] [35mhttp[39m: [35m::1 GET /api/users/verify-email/e9d1a81349a30cda6ca8116e7514a25e7c41231127f3e9b5eb885c65b7806f55 - - - ms[39m
+[22 Nov, 2024 - 23:54:27:5427] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 23:54:27:5427] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 23:54:27:5427] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Nov, 2024 - 23:54:40:5440] [34minfo[39m: [34mUploaded File:[39m
+[22 Nov, 2024 - 23:54:40:5440] [34minfo[39m: [34mAvatar File Path:[39m
+[22 Nov, 2024 - 23:54:44:5444] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4431.583 ms[39m
+[22 Nov, 2024 - 23:57:23:5723] [35mhttp[39m: [35m::1 GET /api/users/verify-email/ddf5c46bdf2a5e35e44c697b665e838b9adb39d5ef9700b01a8c312456c61007 - - - ms[39m
+[22 Nov, 2024 - 23:57:39:5739] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Nov, 2024 - 23:57:39:5739] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Nov, 2024 - 23:57:39:5739] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:22:08:228] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 00:22:08:228] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 00:22:08:228] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:22:21:2221] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:22:21:2221] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:22:21:2221] [31merror[39m: [31mError in signUp: ApiError is not defined[39m
+[23 Nov, 2024 - 00:22:21:2221] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 414.659 ms[39m
+[23 Nov, 2024 - 00:24:02:242] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 00:24:02:242] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 00:24:02:242] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:24:11:2411] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:24:11:2411] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:24:12:2412] [31merror[39m: [31mError in signUp: ApiError is not defined[39m
+[23 Nov, 2024 - 00:24:12:2412] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 398.886 ms[39m
+[23 Nov, 2024 - 00:25:30:2530] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 00:25:30:2530] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 00:25:30:2530] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:25:43:2543] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:25:43:2543] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:25:43:2543] [31merror[39m: [31mError in signUp: ApiError is not defined[39m
+[23 Nov, 2024 - 00:25:43:2543] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 412.267 ms[39m
+[23 Nov, 2024 - 00:26:55:2655] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 00:26:55:2655] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 00:26:55:2655] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:27:16:2716] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:27:16:2716] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:27:16:2716] [31merror[39m: [31mError in signUp: refreshToken is not defined[39m
+[23 Nov, 2024 - 00:27:16:2716] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 287.418 ms[39m
+[23 Nov, 2024 - 00:28:04:284] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:28:04:284] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:28:04:284] [31merror[39m: [31mError in signUp: refreshToken is not defined[39m
+[23 Nov, 2024 - 00:28:04:284] [35mhttp[39m: [35m::1 POST /api/users/signup 500 - 482.777 ms[39m
+[23 Nov, 2024 - 00:28:18:2818] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 00:28:18:2818] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 00:28:18:2818] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:28:31:2831] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:28:31:2831] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:28:35:2835] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4177.583 ms[39m
+[23 Nov, 2024 - 00:33:32:3332] [35mhttp[39m: [35m::1 POST /api/users/signup 409 - 143.719 ms[39m
+[23 Nov, 2024 - 00:34:16:3416] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 00:34:16:3416] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 00:34:16:3416] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 00:34:25:3425] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:34:25:3425] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:34:30:3430] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 5065.553 ms[39m
+[23 Nov, 2024 - 00:47:38:4738] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/v1/users/verify-email/bb6261ff1ab77f36380066d9c9c5da4735059230 404 - 14.118 ms[39m
+[23 Nov, 2024 - 00:48:54:4854] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 00:48:54:4854] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 00:48:58:4858] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4658.547 ms[39m
+[23 Nov, 2024 - 00:49:09:499] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/v1/users/verify-email/52ed099af90feafcd063100d6e5831e85011a854 404 - 1.439 ms[39m
+[23 Nov, 2024 - 01:03:16:316] [35mhttp[39m: [35m::1 GET /api/users/verify-email/52ed099af90feafcd063100d6e5831e85011a854 - - - ms[39m
+[23 Nov, 2024 - 01:05:35:535] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/users/verify-email/52ed099af90feafcd063100d6e5831e85011a854 - - - ms[39m
+[23 Nov, 2024 - 01:06:07:67] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 01:06:07:67] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 01:06:12:612] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 5186.538 ms[39m
+[23 Nov, 2024 - 01:06:47:647] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:06:47:647] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:06:47:647] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:06:53:653] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/v1/users/verify-email/591a0d5da059e2a1353d2c1fd6a78b321f04e481 404 - 7.360 ms[39m
+[23 Nov, 2024 - 01:08:00:80] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:08:00:80] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:08:00:80] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:08:07:87] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 01:08:07:87] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 01:08:11:811] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4346.962 ms[39m
+[23 Nov, 2024 - 01:18:21:1821] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:18:21:1821] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:18:21:1821] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:19:22:1922] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/users/verify-email/ecabf26f16467abfeb711e69bb8723bffba3307e - - - ms[39m
+[23 Nov, 2024 - 01:20:22:2022] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:20:22:2022] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:20:22:2022] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:22:11:2211] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:22:11:2211] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:22:11:2211] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:23:56:2356] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:23:56:2356] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:23:56:2356] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:24:23:2423] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:24:23:2423] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:24:23:2423] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 01:25:06:256] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 01:25:06:256] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 01:25:06:256] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 13:53:54:5354] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 13:53:54:5354] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 13:53:54:5354] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 13:57:46:5746] [31merror[39m: [31merrror on database MongoNetworkError: AggregateError has an empty errors array. Please check the `cause` property for more information.[39m
+[23 Nov, 2024 - 13:59:01:591] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 13:59:01:591] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 13:59:01:591] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:03:25:325] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:03:25:325] [35mhttp[39m: [35m::1 POST /api/users/login 422 - 22.972 ms[39m
+[23 Nov, 2024 - 14:05:13:513] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 135.272 ms[39m
+[23 Nov, 2024 - 14:06:59:659] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:06:59:659] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:06:59:659] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:07:03:73] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 132.346 ms[39m
+[23 Nov, 2024 - 14:13:44:1344] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:13:44:1344] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:13:44:1344] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:14:05:145] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 278.095 ms[39m
+[23 Nov, 2024 - 14:16:37:1637] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:16:37:1637] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:16:37:1637] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:17:21:1721] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 199.357 ms[39m
+[23 Nov, 2024 - 14:19:37:1937] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:19:38:1938] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:19:38:1938] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:21:41:2141] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:21:41:2141] [35mhttp[39m: [35m::1 POST /api/users/login 422 - 9.207 ms[39m
+[23 Nov, 2024 - 14:22:22:2222] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:22:22:2222] [35mhttp[39m: [35m::1 POST /api/users/login 422 - 3.820 ms[39m
+[23 Nov, 2024 - 14:23:18:2318] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:23:18:2318] [35mhttp[39m: [35m::1 POST /api/users/login 422 - 3.735 ms[39m
+[23 Nov, 2024 - 14:25:33:2533] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:25:33:2533] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:25:33:2533] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:25:38:2538] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:25:38:2538] [35mhttp[39m: [35m::1 POST /api/users/login 422 - 13.883 ms[39m
+[23 Nov, 2024 - 14:31:54:3154] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 156.741 ms[39m
+[23 Nov, 2024 - 14:35:24:3524] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:35:24:3524] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:35:24:3524] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:35:40:3540] [35mhttp[39m: [35m::1 POST /api/users/signup 409 - 138.594 ms[39m
+[23 Nov, 2024 - 14:37:12:3712] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:37:12:3712] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:37:12:3712] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:38:46:3846] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 14:38:46:3846] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 14:38:50:3850] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 3850.443 ms[39m
+[23 Nov, 2024 - 14:39:37:3937] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 134.143 ms[39m
+[23 Nov, 2024 - 14:56:28:5628] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 14:56:28:5628] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 14:56:28:5628] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 14:56:34:5634] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 140.710 ms[39m
+[23 Nov, 2024 - 15:04:52:452] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 15:04:52:452] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 15:04:52:452] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 15:05:00:50] [35mhttp[39m: [35m::1 POST /api/users/login 400 - 204.658 ms[39m
+[23 Nov, 2024 - 15:13:20:1320] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 15:13:20:1320] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 15:13:20:1320] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 15:13:23:1323] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 15:13:23:1323] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 15:13:29:1329] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 6019.904 ms[39m
+[23 Nov, 2024 - 15:14:10:1410] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 378.323 ms[39m
+[23 Nov, 2024 - 15:14:22:1422] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 151.121 ms[39m
+[23 Nov, 2024 - 15:32:48:3248] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 478.295 ms[39m
+[23 Nov, 2024 - 23:39:41:3941] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 23:39:41:3941] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 23:39:41:3941] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 23:58:17:5817] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[23 Nov, 2024 - 23:58:17:5817] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[23 Nov, 2024 - 23:58:17:5817] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[23 Nov, 2024 - 23:58:28:5828] [34minfo[39m: [34mUploaded File:[39m
+[23 Nov, 2024 - 23:58:28:5828] [34minfo[39m: [34mAvatar File Path:[39m
+[23 Nov, 2024 - 23:58:32:5832] [35mhttp[39m: [35m::1 POST /api/users/signup 200 - 4706.741 ms[39m
+[23 Nov, 2024 - 23:58:50:5850] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /api/users/verify-email/26ee6ff74a032dc26d7e3b45a50513fd9a26f12c 200 - 167.618 ms[39m
+[23 Nov, 2024 - 23:58:50:5850] [35mhttp[39m: [35m::ffff:127.0.0.1 GET /favicon.ico 404 - 4.432 ms[39m
+[24 Nov, 2024 - 00:04:27:427] [35mhttp[39m: [35m::1 GET /api/users/login 404 - 66.941 ms[39m
+[24 Nov, 2024 - 00:05:07:57] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 303.205 ms[39m
+[24 Nov, 2024 - 00:12:22:1222] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 00:12:22:1222] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 00:12:22:1222] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 00:47:12:4712] [35mhttp[39m: [35m::1 POST /api/users/resend-verification - - - ms[39m
+[24 Nov, 2024 - 12:42:41:4241] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 12:42:41:4241] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 12:42:41:4241] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 12:46:14:4614] [35mhttp[39m: [35m::1 POST /api/users/resend-verification - - - ms[39m
+[24 Nov, 2024 - 12:46:29:4629] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 12:46:29:4629] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 12:46:29:4629] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 13:12:04:124] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 13:12:04:124] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 13:12:04:124] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 13:12:09:129] [31merror[39m: [31m[POST]  /api/users/resend-verification - 409: Email is already verified![39m
+[24 Nov, 2024 - 13:12:09:129] [35mhttp[39m: [35m::1 POST /api/users/resend-verification 409 - 62.009 ms[39m
+[24 Nov, 2024 - 13:14:30:1430] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 245.438 ms[39m
+[24 Nov, 2024 - 13:15:47:1547] [35mhttp[39m: [35m::1 POST /api/users/resend-verification 200 - 3697.689 ms[39m
+[24 Nov, 2024 - 13:21:59:2159] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 13:21:59:2159] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 13:21:59:2159] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 13:22:02:222] [35mhttp[39m: [35m::1 GET /api/users/verify-email/ee8cf32ccc75e2df977c287fca5243637cf78eae 200 - 224.599 ms[39m
+[24 Nov, 2024 - 13:27:49:2749] [35mhttp[39m: [35m::1 POST /api/users/logout - - - ms[39m
+[24 Nov, 2024 - 13:28:11:2811] [35mhttp[39m: [35m::1 GET /api/users/logout 404 - 6.868 ms[39m
+[24 Nov, 2024 - 13:30:09:309] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 339.435 ms[39m
+[24 Nov, 2024 - 13:33:40:3340] [35mhttp[39m: [35m::1 POST /api/users/logout - - - ms[39m
+[24 Nov, 2024 - 13:33:53:3353] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 13:33:53:3353] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 13:33:53:3353] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 13:34:35:3435] [31merror[39m: [31m[POST]  /api/users/logout - 500: ApiError is not defined[39m
+[24 Nov, 2024 - 13:34:35:3435] [35mhttp[39m: [35m::1 POST /api/users/logout 500 - 6.246 ms[39m
+[24 Nov, 2024 - 13:35:40:3540] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 13:35:40:3540] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 13:35:40:3540] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 13:35:44:3544] [31merror[39m: [31m[POST]  /api/users/logout - 401: invalid token[39m
+[24 Nov, 2024 - 13:35:44:3544] [35mhttp[39m: [35m::1 POST /api/users/logout 401 - 8.228 ms[39m
+[24 Nov, 2024 - 13:40:11:4011] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[24 Nov, 2024 - 13:40:11:4011] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[24 Nov, 2024 - 13:40:11:4011] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[24 Nov, 2024 - 13:40:19:4019] [35mhttp[39m: [35m::1 POST /api/users/logout 200 - 201.012 ms[39m
+[22 Dec, 2024 - 13:14:08:148] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 13:14:08:148] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 13:14:08:148] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 13:14:20:1420] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 280.761 ms[39m
+[22 Dec, 2024 - 13:14:53:1453] [35mhttp[39m: [35m::1 POST /api/users/logout 200 - 186.082 ms[39m
+[22 Dec, 2024 - 13:20:59:2059] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 567.139 ms[39m
+[22 Dec, 2024 - 13:21:51:2151] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:21:51:2151] [35mhttp[39m: [35m::1 POST /api/users/refresh-token 500 - 6.364 ms[39m
+[22 Dec, 2024 - 13:23:55:2355] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:23:55:2355] [35mhttp[39m: [35m::1 POST /api/users/refresh-token 500 - 3.740 ms[39m
+[22 Dec, 2024 - 13:27:45:2745] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 13:27:45:2745] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 13:27:45:2745] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 13:28:02:282] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:28:02:282] [35mhttp[39m: [35m::1 POST /api/users/refresh-token 500 - 26.481 ms[39m
+[22 Dec, 2024 - 13:29:23:2923] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 13:29:23:2923] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 13:29:23:2923] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 13:30:00:300] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 277.314 ms[39m
+[22 Dec, 2024 - 13:31:17:3117] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:31:17:3117] [35mhttp[39m: [35m::1 POST /api/users/refresh-token 500 - 5.126 ms[39m
+[22 Dec, 2024 - 13:36:23:3623] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 13:36:23:3623] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 13:36:23:3623] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 13:38:48:3848] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:38:48:3848] [35mhttp[39m: [35m::1 POST /api/users/refresh-token 500 - 6.965 ms[39m
+[22 Dec, 2024 - 13:45:22:4522] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 13:45:22:4522] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 13:45:22:4522] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 13:45:59:4559] [35mhttp[39m: [35m::1 POST /api/users/refresh-token 200 - 241.490 ms[39m
+[22 Dec, 2024 - 13:54:40:5440] [35mhttp[39m: [35m::1 GET /api/users/profiles 200 - 102.666 ms[39m
+[22 Dec, 2024 - 14:06:38:638] [35mhttp[39m: [35m::1 POST /api/users/profiles/update 404 - 28.944 ms[39m
+[22 Dec, 2024 - 14:07:39:739] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 14:07:39:739] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 14:07:39:739] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 14:07:57:757] [35mhttp[39m: [35m::1 POST /api/users/profiles/update 404 - 27.109 ms[39m
+[22 Dec, 2024 - 14:08:06:86] [35mhttp[39m: [35m::1 POST /api/users/profiles/update 404 - 2.659 ms[39m
+[22 Dec, 2024 - 14:08:38:838] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 338.962 ms[39m
+[22 Dec, 2024 - 14:08:47:847] [35mhttp[39m: [35m::1 POST /api/users/profiles/update 404 - 0.628 ms[39m
+[22 Dec, 2024 - 14:10:46:1046] [35mhttp[39m: [35m::1 POST /api/users/profiles/update 404 - 1.263 ms[39m
+[22 Dec, 2024 - 14:11:38:1138] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 72.736 ms[39m
+[22 Dec, 2024 - 14:13:14:1314] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 301.722 ms[39m
+[22 Dec, 2024 - 14:13:58:1358] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 60.192 ms[39m
+[22 Dec, 2024 - 14:16:29:1629] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 54.100 ms[39m
+[22 Dec, 2024 - 14:33:56:3356] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 14:33:56:3356] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 14:33:56:3356] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 14:34:11:3411] [35mhttp[39m: [35m::1 POST /api/users/login 200 - 654.156 ms[39m
+[22 Dec, 2024 - 14:37:59:3759] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 2624.273 ms[39m
+[22 Dec, 2024 - 14:38:15:3815] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 263.840 ms[39m
+[22 Dec, 2024 - 14:44:17:4417] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 14:44:17:4417] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 14:44:17:4417] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 14:44:25:4425] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 93.472 ms[39m
+[22 Dec, 2024 - 14:52:17:5217] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 14:52:17:5217] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 14:52:17:5217] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 14:52:32:5232] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 200 - 156.255 ms[39m
+[22 Dec, 2024 - 14:53:03:533] [35mhttp[39m: [35m::1 PUT /api/users/profiles/update 500 - 2999.010 ms[39m
+[22 Dec, 2024 - 15:24:57:2457] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 15:24:57:2457] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 15:24:57:2457] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 15:44:01:441] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 15:44:01:441] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 15:44:01:441] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 15:47:17:4717] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 15:47:17:4717] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 15:47:17:4717] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 15:54:47:5447] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 15:54:47:5447] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 15:54:47:5447] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 15:57:30:5730] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-00.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 15:57:30:5730] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 15:57:30:5730] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 15:57:38:5738] [31merror[39m: [31m[POST]  /api/users/forgot-password - 401: forgotPasswordMailgenContent is not defined[39m
+[22 Dec, 2024 - 15:57:38:5738] [35mhttp[39m: [35m::1 POST /api/users/forgot-password 401 - 262.757 ms[39m
+[22 Dec, 2024 - 15:59:21:5921] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-02.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 15:59:21:5921] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 15:59:21:5921] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 15:59:32:5932] [35mhttp[39m: [35m::1 POST /api/users/forgot-password 200 - 3931.306 ms[39m
+[22 Dec, 2024 - 16:04:27:427] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 16:04:27:427] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 16:04:27:427] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 16:09:18:918] [34minfo[39m: [34m☘️  MongoDB Connected! Db host: cluster0-shard-00-01.lokyr.mongodb.net[39m
+[22 Dec, 2024 - 16:09:18:918] [34minfo[39m: [34m⚙️  Server is running on port: 5000[39m
+[22 Dec, 2024 - 16:09:18:918] [34minfo[39m: [34m📑 Visit the documentation at: http://localhost:5000 [39m
+[22 Dec, 2024 - 16:09:27:927] [35mhttp[39m: [35m::1 POST /api/users/forgot-password 200 - 4120.084 ms[39m

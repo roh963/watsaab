@@ -33,7 +33,12 @@ const sendEmail = async (options) => {
   };
 
   try {
-    await transporter.sendMail(mail);
+    await transporter.sendMail(mail).then((info) => {
+      console.log("Email sent successfully:", info.messageId);
+    })
+    .catch((error) => {
+      console.error("Error sending email:", error);
+    });
   } catch (error) {
     logger.error("Email service failed silently. Check MAILTRAP credentials.");
     logger.error("Error: ", error);

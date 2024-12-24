@@ -17,6 +17,7 @@ import cors from "cors"
    import userRoutes from "./src/routes/user.routes.js"
    import morganMiddleware from "./src/logger/morgan.logger.js"
    import  winston from 'winston';
+   import cookieParser from 'cookie-parser';
 
  // creating app
 const app = express()
@@ -32,7 +33,7 @@ app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json({limit:"16kb"}))
 app.use(express.urlencoded({ extended: true }));
-app.use(morgan("combined", { stream: winston.stream }));
+app.use(cookieParser());
 
 
 // routes setup

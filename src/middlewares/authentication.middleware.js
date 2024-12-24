@@ -1,20 +1,29 @@
- import   jwt  from 'jsonwebtoken';
- import { ACCESS_TOKEN_SECRET } from "../../config.js";
-import { ApiResponse } from '../utils/ApiResponse.js';
+import jwt from 'jsonwebtoken';
+import { ACCESS_TOKEN_SECRET } from "../../config.js";
+import { User } from '../models/user.model.js';
+import { asyncHandler } from '../utils/asyncHandler.js';
+import { ApiError } from '../utils/ApiError.js';
 
- const authenticationToken= async (req,res,next)=>{
-    const token = req.headers["authorization"]?.split(" ")[1];
 
-    if (! token) {
-       return res.status(401).json( new ApiResponse(401, null, "error in token"))
+export const verifyJWT = asyncHandler(async (req, res, next) => {
+  const token = req.cookies?.accessToken || req.header("Authorization")?.replace("Bearer ", "");
+
+  if (!token) {
+    throw new ApiError(401, "Unauthorized request");
+  }
+
+  try {
+    const decodedToken = jwt.verify(token, ACCESS_TOKEN_SECRET);
+    const user = await User.findById(decodedToken?._id).select(
+      "-password -refreshToken -emailVerificationToken -emailVerificationExpiry"
+    );
+    if (!user) {
+      throw new ApiError(401, "Invalid access token");
     }
-    try {
-        const decode= jwt.verify(token,ACCESS_TOKEN_SECRET)
+    req.user = user;
+    next();
+  } catch (error) {
+    throw new ApiError(401, error?.message || "Invalid access token");
+  }
+});
 
-        req.user= decode
-        next();
-    } catch (error) {
-        return res(403).json(new ApiResponse(403,null,"expired the token"))
-    }
- }
- export default authenticationToken;

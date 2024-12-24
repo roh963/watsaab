@@ -4,3 +4,59 @@
 [21 Nov, 2024 - 16:38:56:3856] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
 [21 Nov, 2024 - 16:41:12:4112] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
 [21 Nov, 2024 - 16:52:02:522] [31merror[39m: [31merrror on database ReferenceError: connectionInstance is not defined[39m
+[21 Nov, 2024 - 17:14:28:1428] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[21 Nov, 2024 - 17:19:42:1942] [31merror[39m: [31m[POST]  /api/users/signup - 422: Received data is not valid[39m
+[21 Nov, 2024 - 17:28:33:2833] [31merror[39m: [31m[POST]  /api/users/signup - 500: Only .png, .jpg, and .jpeg format allowed![39m
+[21 Nov, 2024 - 17:31:59:3159] [31merror[39m: [31m[POST]  /api/users/signup - 422: Received data is not valid[39m
+[21 Nov, 2024 - 17:35:43:3543] [31merror[39m: [31m[POST]  /api/users/signup - 422: Received data is not valid[39m
+[21 Nov, 2024 - 20:49:15:4915] [31merror[39m: [31m[POST]  /api/users/signup - 500: logger is not defined[39m
+[21 Nov, 2024 - 20:50:08:508] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 20:59:37:5937] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:06:37:637] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:09:13:913] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:15:12:1512] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:15:28:1528] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:18:21:1821] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:19:16:1916] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:20:35:2035] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 21:21:17:2117] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 22:41:41:4141] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 22:45:39:4539] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:01:47:147] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:03:49:349] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:10:25:1025] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:10:43:1043] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:47:59:4759] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:53:29:5329] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[21 Nov, 2024 - 23:55:46:5546] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 00:11:55:1155] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 00:12:45:1245] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 12:42:09:429] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 12:46:06:466] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 12:46:40:4640] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 12:48:12:4812] [31merror[39m: [31mError in signUp: Invalid namespace specified: /watsaab.users[39m
+[22 Nov, 2024 - 13:12:11:1211] [31merror[39m: [31mError in signUp: "REFRESH_TOKEN_EXPIRY" is not allowed in "options"[39m
+[22 Nov, 2024 - 15:13:41:1341] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 15:14:47:1447] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[22 Nov, 2024 - 15:14:54:1454] [31merror[39m: [31merror on generating tempory token[39m
+[22 Nov, 2024 - 21:08:49:849] [31merror[39m: [31m[POST]  /api/users/signup - 500: File too large[39m
+[23 Nov, 2024 - 00:22:21:2221] [31merror[39m: [31mError in signUp: ApiError is not defined[39m
+[23 Nov, 2024 - 00:24:12:2412] [31merror[39m: [31mError in signUp: ApiError is not defined[39m
+[23 Nov, 2024 - 00:25:43:2543] [31merror[39m: [31mError in signUp: ApiError is not defined[39m
+[23 Nov, 2024 - 00:27:16:2716] [31merror[39m: [31mError in signUp: refreshToken is not defined[39m
+[23 Nov, 2024 - 00:28:04:284] [31merror[39m: [31mError in signUp: refreshToken is not defined[39m
+[23 Nov, 2024 - 13:57:46:5746] [31merror[39m: [31merrror on database MongoNetworkError: AggregateError has an empty errors array. Please check the `cause` property for more information.[39m
+[23 Nov, 2024 - 14:03:25:325] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:21:41:2141] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:22:22:2222] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:23:18:2318] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[23 Nov, 2024 - 14:25:38:2538] [31merror[39m: [31m[POST]  /api/users/login - 422: Received data is not valid[39m
+[24 Nov, 2024 - 13:12:09:129] [31merror[39m: [31m[POST]  /api/users/resend-verification - 409: Email is already verified![39m
+[24 Nov, 2024 - 13:34:35:3435] [31merror[39m: [31m[POST]  /api/users/logout - 500: ApiError is not defined[39m
+[24 Nov, 2024 - 13:35:44:3544] [31merror[39m: [31m[POST]  /api/users/logout - 401: invalid token[39m
+[22 Dec, 2024 - 13:21:51:2151] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:23:55:2355] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:28:02:282] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:31:17:3117] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 13:38:48:3848] [31merror[39m: [31m[POST]  /api/users/refresh-token - 500: Cannot read properties of undefined (reading 'refreshToken')[39m
+[22 Dec, 2024 - 15:57:38:5738] [31merror[39m: [31m[POST]  /api/users/forgot-password - 401: forgotPasswordMailgenContent is not defined[39m

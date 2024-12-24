@@ -1,4 +1,5 @@
 import winston from "winston";
+import { NODE_ENV } from "../../config.js";
 
 // quality of level 
 const levels = {
@@ -11,7 +12,7 @@ const levels = {
 
 // logging level determine the logging based on  envv
 const getloglevel = ()=>{
-    const env = process.env.NODE_ENV || "development"; 
+    const env = NODE_ENV || "development"; 
     return env === "development" ? "debug" : "warn";
 }
 

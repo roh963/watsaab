@@ -6,6 +6,7 @@ import { ACCESS_TOKEN_EXPIRY, ACCESS_TOKEN_SECRET, REFRESH_TOKEN_EXPIRY, REFRESH
 import { AvailableUserRoles, UserRolesEnum } from "../../constant.js";
 
 
+
 const userSchema = new Schema({
     username: {
         type: String,
@@ -37,8 +38,14 @@ const userSchema = new Schema({
         trim: true,
     },
     avatar: {
-        type: String,
-        default: null
+       type: {
+        url: String,
+        localPath: String,
+      },
+      default: {
+        url: `https://via.placeholder.com/200x200.png`,
+        localPath: "",
+      },
     },
     role: {
       type: String,
@@ -91,11 +98,18 @@ const userSchema = new Schema({
 
 userSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next();
+    console.log("Plain password during signup:", this.password);
     this.password = await bcrypt.hash(this.password, 10);
+    console.log("Hashed password during signup:", this.password);
+
     next()
 })
-userSchema.methods.isPasswordCorrect = async function (password) {
-    return await bcrypt.compare(password, this.password)
+userSchema.methods.isPasswordCorrect= async function (password) {
+    console.log("Plain password:", password);
+    console.log("Hashed password from DB:", this.password);
+    const isValid= await bcrypt.compare(password, this.password)
+    console.log("Password valid:", isValid);
+    return isValid
 }
 userSchema.methods.generateAccessToken = function () {
     return jwt.sign(
@@ -117,7 +131,7 @@ userSchema.methods.generateRefreshToken = function () {
             _id: this._id,
         },
         REFRESH_TOKEN_SECRET,
-        { REFRESH_TOKEN_EXPIRY}
+        { expiresIn: REFRESH_TOKEN_EXPIRY}
     );
 };
 

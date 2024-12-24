@@ -2,7 +2,7 @@ import { body, param } from "express-validator";
 import { AvailableUserRoles } from "../../constant.js";
 
 
-const userRegisterValidator = () => {
+export const userRegisterValidator = () => {
   return [
     body("email")
       .trim()
@@ -26,7 +26,7 @@ const userRegisterValidator = () => {
   ];
 };
 
-const userLoginValidator = () => {
+export const userLoginValidator = () => {
   return [
     body("email").optional().isEmail().withMessage("Email is invalid"),
     body("username").optional(),
@@ -34,14 +34,14 @@ const userLoginValidator = () => {
   ];
 };
 
-const userChangeCurrentPasswordValidator = () => {
+export const userChangeCurrentPasswordValidator = () => {
   return [
     body("oldPassword").notEmpty().withMessage("Old password is required"),
     body("newPassword").notEmpty().withMessage("New password is required"),
   ];
 };
 
-const userForgotPasswordValidator = () => {
+export const userForgotPasswordValidator = () => {
   return [
     body("email")
       .notEmpty()
@@ -51,11 +51,11 @@ const userForgotPasswordValidator = () => {
   ];
 };
 
-const userResetForgottenPasswordValidator = () => {
+export const userResetForgottenPasswordValidator = () => {
   return [body("newPassword").notEmpty().withMessage("Password is required")];
 };
 
-const userAssignRoleValidator = () => {
+export const userAssignRoleValidator = () => {
   return [
     body("role")
       .optional()
@@ -64,11 +64,4 @@ const userAssignRoleValidator = () => {
   ];
 };
 
-export {
-  userChangeCurrentPasswordValidator,
-  userForgotPasswordValidator,
-  userLoginValidator,
-  userRegisterValidator,
-  userResetForgottenPasswordValidator,
-  userAssignRoleValidator
-};
+
